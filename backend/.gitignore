@@ -1,0 +1,27 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment folder
+venv/
+
+# Ignore local development settings
+config.py
+
+# Ignore generated files and directories
+*.db
+*.sqlite
+
+# Ignore IDE specific files
+.vscode/
+*.pyproj
+*.pyproj.user
+*.sln
+*.suo
+
+# Ignore sensitive files
+*.env
+*.pem
+
+# Ignore development log files
+logs/
